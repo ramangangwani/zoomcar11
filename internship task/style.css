@@ -1,0 +1,98 @@
+.bgimage{
+
+    width:100%;
+    height:500px;
+    background: url('zoomcar-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    
+  }
+  .dashed::before{
+    position: relative;
+    top: -5px;
+    margin: 0 10px;
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #d4c3c3;
+  }
+  .dashed::after{
+    position: relative;
+    top: -5px;
+    margin: 0 10px;
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #d4c3c3;
+  }
+.bgimage-2{
+
+  width:100%;
+  height:321px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('back2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  
+    
+  }
+  .store a {
+    display: inline-block;
+    width: 189px;
+    height: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+.bgimage-3{
+
+  width:100%;
+  height:500px;
+  background: url('back3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  
+    
+  }
+  .bgimage h5 {
+    color:white;
+    
+  }
+  .bgimage-2 h1 {
+    color:white;
+    
+  }
+  .dashed{
+    color: white;
+  }
+  .bgimage p {
+    color:white;
+   
+  }
+  /* .lead {
+    color:white;
+   
+  } */
+  .pp{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  .btn-1{
+      margin: 13px 16px;
+      background-color: transparent;
+      color: white;
+  }
+  .form-control{
+      display: inline;
+      width: 45%;
+  }
+  
+  
